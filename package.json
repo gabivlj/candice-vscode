@@ -3,6 +3,10 @@
     "displayName": "cd",
     "description": "Candice syntax colouring!",
     "version": "0.0.1",
+    "publisher": "GabrielVillalonga",
+    "repository": {
+        "url": "https://github.com/gabivlj/candice-vscode"
+    },
     "engines": {
         "vscode": "^1.63.0"
     },
