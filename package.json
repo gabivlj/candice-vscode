@@ -1,0 +1,25 @@
+{
+    "name": "Candice",
+    "displayName": "cd",
+    "description": "Candice syntax colouring!",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "candice",
+            "aliases": ["Candice", "candice"],
+            "extensions": [".cd","candice"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "candice",
+            "scopeName": "source.cd",
+            "path": "./syntaxes/candice.tmLanguage.json"
+        }]
+    }
+}
