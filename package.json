@@ -2,7 +2,7 @@
     "name": "candice",
     "displayName": "Candice",
     "description": "Candice syntax colouring!",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "GabrielVillalonga",
     "repository": {
         "url": "https://github.com/gabivlj/candice-vscode"
