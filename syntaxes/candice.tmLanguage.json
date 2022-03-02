@@ -144,6 +144,7 @@
 				}
 			}
 		},
+		
 		{
 			"include": "#numeric_literals"
 		},
@@ -459,6 +460,10 @@
 				{
 					"match": "\\bstruct\\b",
 					"name": "keyword.struct.cd"
+				},
+				{
+					"match": "\\bunion\\b",
+					"name": "keyword.union.cd"
 				}
 			]
 		},
@@ -480,6 +485,10 @@
 				{
 					"match": "\\+\\+",
 					"name": "keyword.operator.increment.cd"
+				},
+				{
+					"match": "\\bas\\b",
+					"name": "keyword.operator.as.cd"
 				},
 				{
 					"match": "(==|!=|<=|>=|<(?!<)|>(?!>))",
